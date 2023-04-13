@@ -1,10 +1,10 @@
 @import url("https://fonts.googleapis.com/css2?family=Source+Sans+Pro&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Source+Sans+Pro&display=swap");
 @font-face {
-  font-family: "Source Sans Pro", sans-serif;
+  font-family: "Source Sans Pro";
 }
 @font-face {
-  font-family: "Source Sans Pro", sans-serif;
+  font-family: "Source Sans Pro";
 }
 .header {
   height: 640px;
@@ -38,10 +38,11 @@
 .header .menu .col-md-9 ul {
   padding: 40px 0 0 0;
   list-style-type: none;
+  display: flex;
+  flex-direction: row;
+  margin-left: 150px;
 }
 .header .menu .col-md-9 ul li {
-  display: inline-block;
-  float: right;
   margin-right: 50px;
 }
 .header .menu .col-md-9 ul li a {
@@ -51,8 +52,8 @@
   font-weight: 600;
 }
 .header .menu .col-md-9 ul li a:hover {
-  text-decoration: underline;
-  text-decoration-color: #008ed6;
-  text-decoration-thickness: 2px;
+  text-decoration: none;
+  border-bottom: 2px solid #008ed6;
+  padding-bottom: 5px;
 }
 /*# sourceMappingURL=style.css.map */

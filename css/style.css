@@ -236,7 +236,7 @@
   margin: 0 0 0 70px;
 }
 .content_block-4 img {
-  margin: 0 -13px 0 -43px;
+  margin: 0 -13px 0 -45px;
 }
 .content_block-4 h1 {
   padding: 30px 0 0 0;
@@ -247,5 +247,65 @@
 .content_block-4 p {
   font-size: 17px;
   color: #999999;
+}
+
+.block {
+  background: white;
+  width: 100%;
+  height: 100%;
+}
+.block_content {
+  max-width: 1170px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: row;
+}
+.block_content img {
+  margin: 65px 0 0 35px;
+}
+
+.content_text {
+  width: 470px;
+  height: 380px;
+  margin: 120px 0 0 70px;
+}
+.content_text h4 {
+  font-size: 14px;
+  margin: 0 0 0 0;
+  font-weight: 700;
+  text-transform: uppercase;
+  color: #008ed6;
+}
+.content_text img {
+  margin: 35px 0 35px 0;
+}
+.content_text h1 {
+  padding: 25px 0 0 0;
+  margin: 0 0 0 0;
+  font-size: 36px;
+  font-weight: 600;
+  text-transform: none;
+  letter-spacing: normal;
+  color: #1a1a1a;
+}
+.content_text p {
+  font-size: 18px;
+  font-weight: 400;
+  text-transform: none;
+  letter-spacing: normal;
+  color: #999999;
+  margin: 0 0 40px 0;
+}
+.content_text h3 {
+  margin: 0 0 20px 0;
+  padding: 0 0 0 0;
+  font-size: 17px;
+  font-weight: 400;
+  text-transform: none;
+  letter-spacing: normal;
+  color: #1b1b1b;
+}
+.content_text h3 img {
+  margin: 0 10px 0 0;
 }
 /*# sourceMappingURL=style.css.map */

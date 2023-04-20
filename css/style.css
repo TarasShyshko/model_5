@@ -23,6 +23,11 @@
   font-weight: 700;
   color: #ffffff;
 }
+@media (max-width: 425px) {
+  .header .bg .container a {
+    font-size: 40px;
+  }
+}
 .header .bg .container p {
   margin: -30px 0 0 75px;
   font-size: 9px;

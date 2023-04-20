@@ -1,17 +1,16 @@
 .blocks{
   background: #f2f2f2;
   width: 100%;
-  height: 545px;
+  height: 100%;
   &_cont{
     max-width: 1170px;
     margin: 0 auto;
-    display: flex;
-    flex-direction: row;
+    align-items: center;
+    justify-content: center;
   }
   &_text {
-    width: 470px;
-    height: 250px;
-    padding: 130px 0 0 0;
+
+    padding: 0 20px 0 20px;
     h4{
       font-size: 14px;
       margin: 0 0 0 0;
@@ -19,6 +18,9 @@
       font-weight: 700;
       text-transform: uppercase;
       color: #008ed6;
+      @media (max-width: 992px){
+        padding: 100px 0 0 0;
+      }
     }
 
     h1 {
@@ -42,10 +44,10 @@
       margin: 0 0 40px 0;
     }
   }
-  &_images{
-    img{
-      margin: 30px 0 0 0;
-    }
+
+  .img-fluid{
+    padding: 30px 0 0 0 ;
   }
 }
+
 

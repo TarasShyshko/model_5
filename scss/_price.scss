@@ -19,7 +19,7 @@ h5{
   .content {
     margin: 0 auto;
     max-width: 1170px;
-
+    margin-bottom: 60px;
     h5 {
       font-size: 24px;
       font-weight: 800;
@@ -32,10 +32,32 @@ h5{
     ul {
 
       li {
+        padding: 45px 0 35px 0;
+        .pos-0{
 
-        img {
+            margin: 0 50px -50px 0;
+
+        }
+        h1{
+          font-size: 24px;
+          font-weight: 600;
+          color: #1a1a1a;
+          margin: 0px 80px -50px 0;
+          padding: 0 0 0 0;
+
+        }
+        p{
+          font-size: 60px;
+          color: #1a1a1a;
           margin: 0 0 0 0;
-          padding: 45px 0 35px 0;
+          padding: 0 0 0 0;
+        }
+        h6{
+          font-size: 18px;
+          font-weight: 400;
+          color: #999999;
+          margin: 0 0 0 0;
+          padding: 0 0 0 0;
         }
       }
     }
@@ -60,6 +82,154 @@ h5{
       font-weight: 700;
       text-transform: uppercase;
       margin: 0 0 30px 0;
+    }
+  }
+  .block-1:hover{
+    h5{
+      color: #008ed6;
+    }
+    ul {
+
+      li {
+        background-color: #008ed6;
+        padding: 45px 0 35px 0;
+        .pos-0{
+
+          margin: 0 50px -50px 0;
+
+        }
+        h1{
+
+          color: white;
+
+
+        }
+        p{
+
+          color: white;
+
+        }
+        h6{
+
+          color: white;
+
+        }
+      }
+    }
+    button{
+      background-color: #008ed6;
+      color: white;
+    }
+  }
+  .block-2:hover{
+    h5{
+      color: #008ed6;
+    }
+    ul {
+
+      li {
+        background-color: #008ed6;
+        padding: 45px 0 35px 0;
+        .pos-0{
+
+          margin: 0 50px -50px 0;
+
+        }
+        h1{
+
+          color: white;
+
+
+        }
+        p{
+
+          color: white;
+
+        }
+        h6{
+
+          color: white;
+
+        }
+      }
+    }
+    button{
+      background-color: #008ed6;
+      color: white;
+    }
+  }
+  .block-3:hover{
+    h5{
+      color: #008ed6;
+    }
+    ul {
+
+      li {
+        background-color: #008ed6;
+        padding: 45px 0 35px 0;
+        .pos-0{
+
+          margin: 0 50px -50px 0;
+
+        }
+        h1{
+
+          color: white;
+
+
+        }
+        p{
+
+          color: white;
+
+        }
+        h6{
+
+          color: white;
+
+        }
+      }
+    }
+    button{
+      background-color: #008ed6;
+      color: white;
+    }
+  }
+  .block-4:hover{
+    h5{
+      color: #008ed6;
+    }
+    ul {
+
+      li {
+        background-color: #008ed6;
+        padding: 45px 0 35px 0;
+        .pos-0{
+
+          margin: 0 50px -50px 0;
+
+        }
+        h1{
+
+          color: white;
+
+
+        }
+        p{
+
+          color: white;
+
+        }
+        h6{
+
+          color: white;
+
+        }
+      }
+    }
+    button{
+      background-color: #008ed6;
+      color: white;
     }
   }
 

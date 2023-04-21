@@ -1,7 +1,13 @@
 @import "fonts";
 @import "header";
-@import "product";
-@import "details-block";
-@import "testimonials";
-@import "slider";
-@import "price";
+main{
+  flex: 1 1 auto;
+  @import "product";
+  @import "details-block";
+  @import "testimonials";
+  @import "slider";
+  @import "price";
+  @import "form";
+  @import "contact-form";
+}
+@import "footer";

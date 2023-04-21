@@ -1,0 +1,19 @@
+footer{
+  background-color: #15141a;
+  height: 160px;
+  margin: -8 0 0 0;
+  .images-web{
+    max-width: 500px;
+    margin: 0 auto;
+text-align: center;
+    img{
+      padding: 60px 15px 30px 15px;
+    }
+    p{
+      font-size: 14px;
+      font-weight: 600;
+      text-transform: uppercase;
+      color: #444348;
+    }
+  }
+}

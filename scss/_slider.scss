@@ -2,4 +2,51 @@
   background: url("../images/prostok_t_4_1101.png")center center no-repeat;
   background-size: cover;
   height: 640px;
+  @media (max-width: 600px) {
+    height: 800px;
+  }
+  @media (max-width: 330px) {
+    height: 1000px;
+  }
+  h5{
+    padding: 65px 0 0 0;
+    font-size: 14px;
+    font-weight: 700;
+    text-transform: uppercase;
+    color: #008ed6;
+  }
+  h2{
+    font-size: 36px;
+    font-weight: 600;
+    text-transform: none;
+    letter-spacing: normal;
+    color: #ffffff;
+  }
+  img{
+    margin: 30px 0 90px 0;
+  }
+  text-align: center;
+  .carousel-inner{
+    margin: 0 20px 0 20px;
+    max-width: 1170px;
+    margin: 0 auto;
+    text-align: left;
+    p{
+      font-size: 22px;
+      line-height: 32px;
+      font-weight: 400;
+      color: #ffffff;
+    }
+    .media{
+      p{
+        font-size: 16px;
+        margin: 0 0 0 0;
+        font-weight: 400;
+        color: #ffffff;
+      }
+      img{
+        margin: 0 0 0 0;
+      }
+    }
+  }
 }

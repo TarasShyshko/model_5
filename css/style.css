@@ -400,4 +400,57 @@ header,
   background-size: cover;
   height: 640px;
 }
+
+.price_block h5 {
+  padding: 60px 0 0 0;
+  font-size: 14px;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+  color: #008ed6;
+}
+.price_block h2 {
+  font-weight: 600;
+  text-transform: none;
+  letter-spacing: normal;
+  color: #1a1a1a;
+}
+.price_block img {
+  margin: 30px 0 70px 0;
+}
+.price_block .content {
+  margin: 0 auto;
+  max-width: 1170px;
+}
+.price_block .content h5 {
+  font-size: 24px;
+  font-weight: 800;
+  text-transform: uppercase;
+  color: #1a1a1a;
+  padding: 0 0 0 0;
+  margin: 0 0 0 0;
+}
+.price_block .content ul li img {
+  margin: 0 0 0 0;
+  padding: 45px 0 35px 0;
+}
+.price_block .content p {
+  padding: 50px 15px 45px 15px;
+  margin: 0 0 0 0;
+  font-size: 19px;
+  font-weight: 400;
+  color: #999999;
+}
+.price_block .content p a {
+  color: #008ed6;
+}
+.price_block .content button {
+  font-size: 14px;
+  width: 162px;
+  height: 52px;
+  border: 1px solid #e0e0e0;
+  font-weight: 700;
+  text-transform: uppercase;
+  margin: 0 0 30px 0;
+}
 /*# sourceMappingURL=style.css.map */

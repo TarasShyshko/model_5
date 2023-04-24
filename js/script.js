@@ -7,4 +7,5 @@ $(document).ready(function () {
     document.getElementById("change-color-btn").addEventListener("click", function() {
         document.getElementById("my-div").classList.toggle("my-class");
     });
+
 });

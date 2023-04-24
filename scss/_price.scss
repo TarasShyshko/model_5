@@ -1,3 +1,4 @@
+@import "variables";
 .price_block{
 h5{
   padding: 60px 0 0 0 ;
@@ -11,7 +12,7 @@ h5{
     font-weight: 600;
     text-transform: none;
     letter-spacing: normal;
-    color: #1a1a1a;
+    color: $text-cl-pr;
   }
   img{
     margin: 30px 0 70px 0;
@@ -24,7 +25,7 @@ h5{
       font-size: 24px;
       font-weight: 800;
       text-transform: uppercase;
-      color: #1a1a1a;
+      color: $text-cl-pr;
       padding: 0 0 0 0;
       margin: 0 0 0 0;
     }
@@ -41,21 +42,21 @@ h5{
         h1{
           font-size: 24px;
           font-weight: 600;
-          color: #1a1a1a;
+          color: $text-cl-pr;
           margin: 0px 80px -50px 0;
           padding: 0 0 0 0;
 
         }
         p{
           font-size: 60px;
-          color: #1a1a1a;
+          color: $text-cl-pr;
           margin: 0 0 0 0;
           padding: 0 0 0 0;
         }
         h6{
           font-size: 18px;
           font-weight: 400;
-          color: #999999;
+          color: $text-cl-pr-2;
           margin: 0 0 0 0;
           padding: 0 0 0 0;
         }
@@ -67,10 +68,10 @@ h5{
       margin: 0 0 0 0;
       font-size: 19px;
       font-weight: 400;
-      color: #999999;
+      color: $text-cl-pr-2;
 
       a {
-        color: #008ed6;
+        color: $primary-cl;
       }
     }
 
@@ -78,7 +79,7 @@ h5{
       font-size: 14px;
       width: 162px;
       height: 52px;
-      border: 1px solid #e0e0e0;
+      border: $border-color;
       font-weight: 700;
       text-transform: uppercase;
       margin: 0 0 30px 0;
@@ -86,12 +87,12 @@ h5{
   }
   .block-1:hover{
     h5{
-      color: #008ed6;
+      color: $primary-cl;
     }
     ul {
 
       li {
-        background-color: #008ed6;
+        background-color: $primary-cl;
         padding: 45px 0 35px 0;
         .pos-0{
 
@@ -100,35 +101,35 @@ h5{
         }
         h1{
 
-          color: white;
+          color: $text-cl-pr-3;
 
 
         }
         p{
 
-          color: white;
+          color: $text-cl-pr-3;
 
         }
         h6{
 
-          color: white;
+          color: $text-cl-pr-3;
 
         }
       }
     }
     button{
-      background-color: #008ed6;
-      color: white;
+      background-color: $primary-cl;
+      color: $text-cl-pr-3;
     }
   }
   .block-2:hover{
     h5{
-      color: #008ed6;
+      color: $primary-cl;
     }
     ul {
 
       li {
-        background-color: #008ed6;
+        background-color: $primary-cl;
         padding: 45px 0 35px 0;
         .pos-0{
 
@@ -137,35 +138,35 @@ h5{
         }
         h1{
 
-          color: white;
+          color: $text-cl-pr-3;
 
 
         }
         p{
 
-          color: white;
+          color: $text-cl-pr-3;
 
         }
         h6{
 
-          color: white;
+          color: $text-cl-pr-3;
 
         }
       }
     }
     button{
-      background-color: #008ed6;
-      color: white;
+      background-color: $primary-cl;
+      color: $text-cl-pr-3;
     }
   }
   .block-3:hover{
     h5{
-      color: #008ed6;
+      color: $primary-cl;
     }
     ul {
 
       li {
-        background-color: #008ed6;
+        background-color: $primary-cl;
         padding: 45px 0 35px 0;
         .pos-0{
 
@@ -174,35 +175,35 @@ h5{
         }
         h1{
 
-          color: white;
+          color: $text-cl-pr-3;
 
 
         }
         p{
 
-          color: white;
+          color: $text-cl-pr-3;
 
         }
         h6{
 
-          color: white;
+          color: $text-cl-pr-3;
 
         }
       }
     }
     button{
-      background-color: #008ed6;
-      color: white;
+      background-color: $primary-cl;
+      color: $text-cl-pr-3;
     }
   }
   .block-4:hover{
     h5{
-      color: #008ed6;
+      color: $primary-cl;
     }
     ul {
 
       li {
-        background-color: #008ed6;
+        background-color: $primary-cl;
         padding: 45px 0 35px 0;
         .pos-0{
 
@@ -211,25 +212,25 @@ h5{
         }
         h1{
 
-          color: white;
+          color: $text-cl-pr-3;
 
 
         }
         p{
 
-          color: white;
+          color: $text-cl-pr-3;
 
         }
         h6{
 
-          color: white;
+          color: $text-cl-pr-3;
 
         }
       }
     }
     button{
-      background-color: #008ed6;
-      color: white;
+      background-color: $primary-cl;
+      color: $text-cl-pr-3;
     }
   }
 

@@ -1,3 +1,4 @@
+@import "variables";
 .block-form {
   background-color: #ededed;
   height: 725px;
@@ -11,7 +12,7 @@ height: 1100px;
     font-weight: 700;
     text-transform: uppercase;
     letter-spacing: 0.1em;
-    color: #008ed6;
+    color: $primary-cl;
   }
 
   h2 {
@@ -19,7 +20,7 @@ height: 1100px;
     font-weight: 550;
     text-transform: none;
     letter-spacing: normal;
-    color: #1a1a1a;
+    color: $text-color-form;
   }
 
   .contact {
@@ -37,7 +38,7 @@ p{
 
         font-size: 18px;
         font-weight: 400;
-        color: #999999;
+        color: $text-color-form-2;
       }
     }
 
@@ -51,7 +52,7 @@ p{
         font-size: 18px;
 
         font-weight: 400;
-        color: #999999;
+        color: $text-color-form-2;
       }
 
     }
@@ -65,7 +66,7 @@ p{
         font-size: 18px;
 
         font-weight: 400;
-        color: #999999;
+        color: $text-color-form-2;
       }
     }
   }

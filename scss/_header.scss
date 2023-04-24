@@ -1,3 +1,4 @@
+@import "variables";
 html,
 body,
 header,
@@ -5,18 +6,36 @@ header,
   width: 100%;
 
 }
+.header-bg{
+  height: 94px;
+  background-color: transparent;
+  box-shadow: $color-box ;
+  transition: all 0.5s;
+
+}
+.navbar-scrolled{
+  width: 100%;
+  background-color: $header-bg;
+  box-shadow:$color-box ;
+  @media only screen and (max-width: 992px) {
+
+    background-color: transparent;
+box-shadow: none;
+  }
+}
 .navbar {
   max-width: 1170px;
   margin: 0 auto;
   padding: 0 0 0 0;
+  transition: all 0.5s;
   @media only screen and (max-width: 992px) {
 
-    background-color: #14141a;
+    background-color:$header-bg;
 
   }
 
   .container{
-    padding: 30px 0 0 20px;
+    padding: 15px 0 0 20px;
     @media only screen and (max-width: 992px) {
 
       padding: 0 0 0 20px;
@@ -25,7 +44,7 @@ header,
     a {
       font-size: 24px;
       font-weight: 700;
-      color: #ffffff;
+      color: $header-text-cl;
 
     }
 
@@ -45,11 +64,13 @@ header,
 
     }
     .nav-item {
+      padding: 0 0 10px 0;
      a{
        font-size: 16px;
-       margin: 0 0 0 50px;
-       color: white;
+       margin: 0 0 0 25px;
        padding: 0 0 10px 0;
+       font-weight: 600;
+       color: $header-text-cl;
        
      }
       a:hover{
@@ -90,7 +111,7 @@ header,
 }
 
 .animated-icon1 span {
-  background: white;
+  background: $header-text-cl;
 }
 
 .animated-icon1 span:nth-child(1) {
@@ -135,11 +156,14 @@ header,
     @media only screen and (max-width: 992px){
       padding: 100px 0 0 0 ;
     }
+    @media only screen and (max-width: 325px){
+      padding: 60px 0 0 0 ;
+    }
     h3{
       font-size: 14px;
       font-weight: 700;
       text-transform: uppercase;
-      color: #008ed6;
+      color: $primary-cl;
       margin: 0 0 0 0;
     }
     h1{
@@ -147,7 +171,7 @@ header,
       font-weight: 600;
       text-transform: none;
       letter-spacing: normal;
-      color: #ffffff;
+      color: $header-text-cl;
 
       padding: 30px 0 0 0 ;
       margin: 0 0 0 0;
@@ -158,40 +182,52 @@ header,
       font-weight: 400;
       text-transform: none;
       letter-spacing: normal;
-      color: #999999;
+      color: $header-text-cl-2;
       padding: 30px 0 0 0 ;
       margin: 0 0 0 0;
     }
-    button{
+    a{
       width: 160px;
       height: 50px;
       font-size: 14px;
       font-weight: 700;
-
+      background-color: transparent;
+      color: $header-text-cl;
+    }
+    a:hover{
+      background-color: $primary-cl;
     }
     .btn-primary{
       margin: 60px 20px 0 0;
-      @media only screen and (max-width: 374px){
-        margin: 30px 20px 0 0;
+      padding: 15px 0 15px 0;
+      border: $border-color;
+      @media only screen and (max-width: 394px){
+        margin: 15px 20px 0 0;
       }
     }
-    .btn-outline-secondary{
+    .a{
       margin: 60px 0 0 0;
-      @media only screen and (max-width: 374px){
+      border:$border-color;
+      @media only screen and (max-width: 394px){
         margin: 10px 0px 0 0;
       }
     }
   }
-  .imag{
-    max-width: 1170px;
-    img{
-      margin: -375px 0px 0 635px;
+
+  .img-fluid{
+    margin: -65px 0 0 77px;
+    @media (max-width: 1160px){
+      margin: -470px 0 0 510px;
+    }
+    @media (max-width: 991px){
+      margin: 0 0 0 0;
     }
   }
+
   @media (max-width: 374px) {
     .img-fluid{
       width: 40%;
-      margin: -135px 0 0 190px;
+      margin: -110px 0 0 190px;
     }
   }
 }

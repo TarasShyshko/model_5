@@ -8,11 +8,12 @@
           integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
     <link rel="stylesheet" href="css/style.css">
     <link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.4/font/bootstrap-icons.css">
 </head>
 <body>
 <header>
-    <nav class="navbar fixed-top navbar-expand-lg navbar-dark pink scrolling-navbar">
-
+<div class="header-bg fixed-top navbar-expand-lg navbar-dark pink">
+    <nav class="navbar fixed-top navbar-expand-lg navbar-dark pink">
         <div class="container">
             <a href="" class="navbar-brand">LUCID<p>ONEPAGE<br>THEME</p></a>
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -25,43 +26,42 @@
                     <a href="#">Home <span class="sr-only">(current)</span></a>
                 </li>
                 <li class="nav-item">
-                    <a href="#">Features</a>
+                    <a href="#features">Features</a>
                 </li>
                 <li class="nav-item">
-                    <a href="#">About</a>
+                    <a href="#about">About</a>
                 </li>
                 <li class="nav-item">
-                    <a href="#">Testimonials</a>
+                    <a href="#testimonials">Testimonials</a>
                 </li>
                 <li class="nav-item">
-                    <a href="#">Pricing</a>
+                    <a href="#pricing">Pricing</a>
                 </li>
                 <li class="nav-item">
-                    <a href="#">Contact</a>
+                    <a href="#contact">Contact</a>
                 </li>
             </ul>
         </div>
     </nav>
-
-    <div class="view intro-2" style="">
+</div>
+    <div class="view intro-2">
         <div class="full-bg-img">
             <div class="mask rgba-purple-light flex-center container row">
                 <div class="title col-lg-6">
                     <h3>introducing lucid theme</h3>
                     <h1>Carefully crafted and beautiful landing page.</h1>
                     <p>Etiam ullamcorper et turpis eget hendrerit. Praesent varius risus mi, at elementum magna ultricies accumsan. Cras venenatis lacus sed dolor placerat tempus. Morbi blandit at neque ut imperdiet.</p>
-                    <button type="button" class="btn btn-primary">DOWNLOAD NOW</button>
-                    <button type="button" class="btn btn-outline-secondary" mdbRipple rippleColor="dark">VIEW FEATURES</button>
+                    <a href="#" class="btn btn-primary" role="button">DOWNLOAD NOW</a>
+                    <a href="#" class="btn btn-primary" role="button">VIEW FEATURES</a>
                 </div>
                 <img src="images/devices_kopia_1539.png" class="img-fluid" alt="phone">
 
             </div>
         </div>
     </div>
-
 </header>
 <main>
-    <div class="product">
+    <div class="product" id="features">
         <div class="product_content">
             <div class="content_title">
                 <h4>PRODUCT OVERVIEW</h4>
@@ -97,7 +97,7 @@
         </div>
         <hr>
     </div>
-    <div class="details block">
+    <div class="details block" id="about">
         <div class="block_content row">
             <img src="images/devices_886.png" class="img-fluid" alt="devices">
             <div class="content_text col-lg-6">
@@ -113,7 +113,7 @@
             </div>
         </div>
     </div>
-    <div class="testimonials blocks">
+    <div class="testimonials blocks" id="testimonials">
         <div class="blocks_cont row">
             <div class="blocks_text col-lg-6">
                 <h4>DIP INTO THE DETAILS</h4>
@@ -128,7 +128,7 @@
         </div>
     </div>
 
-    <div id="carousel-example-1z" class="carousel slide carousel-fade" data-ride="carousel">
+    <div id="carousel-example-1z" class="carousel slide carousel-fade" data-ride="carousel" >
         <h5>QUALITY HAS ITS PRICE</h5>
         <h2>Pricings & Plans</h2>
         <img src="images/prostok_t_2_kopia_868.png" alt="line">
@@ -225,9 +225,21 @@
                 </div>
             </div>
         </div>
+
+    </div>
+    <div class="after-slider">
+        <div class="content row">
+            <div class="col-12 col-lg-8 text">
+            <h1>Like what you see?</h1>
+            <h5>Get this great theme now!</h5>
+            </div>
+            <div class="col-12 col-lg-4 button">
+            <a href="#" class="btn btn-primary" role="button">DOWNLOAD NOW</a>
+            <a href="#" class="btn btn-secondary" role="button">VIEW FEATURES</a>
+            </div>
         </div>
     </div>
-    <div class="price_block text-center">
+    <div class="price_block text-center" id="pricing">
         <h5>QUALITY HAS ITS PRICE</h5>
         <h2>Pricings & Plans</h2>
         <img src="images/prostok_t_2_kopia_868.png" alt="line">
@@ -309,7 +321,7 @@
         </div>
         </div>
     </div>
-    <div class="block-form text-center">
+    <div class="block-form text-center" id="contact">
         <h5>STAY IN TOUCH</h5>
         <h2>Contact us</h2>
         <img src="images/prostok_t_2_kopia_868.png" alt="line">
@@ -325,7 +337,7 @@
             </div>
             <div class="content_block-2 col-xl-4 col-md-4">
                 <img src="images/pointer_1268.png" alt="pointer">
-                <p><a href="#">1001 Brickell Bay Dr.<br>Suite 1900<br>Miami, FL 33131</a></p>
+                <p><a href="#maps">1001 Brickell Bay Dr.<br>Suite 1900<br>Miami, FL 33131</a></p>
             </div>
             <div class="content_block-3 col-xl-4 col-md-4">
                 <img src="images/envelope_1269.png" alt="e-mail">
@@ -340,11 +352,11 @@
 
       <div class="row">
           <div class="col-6">
-        <input type="text" id="defaultContactFormName" class="form-control mb-4 " required placeholder="Name*">
+        <input type="text" id="defaultContactFormName" class="form-control mb-4 " pattern="[A-Za-zА-Яа-яЁёҐґІіЇїЄє]+" required placeholder="Name*">
 
         <input type="email" id="defaultContactFormEmail" class="form-control mb-4" required pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,}$" placeholder="E-mail*">
 
-        <input type="text" id="defaultContactFormSubject" class="form-control mb-4" required  placeholder="Subject*">
+        <input type="text" id="defaultContactFormSubject" class="form-control mb-4" pattern="[A-Za-zА-Яа-яЁёҐґІіЇїЄє]+" required  placeholder="Subject*">
           </div>
           <div class="col-6 message_but ">
         <input type="messages" id="defaultContactFormMessage" class="form-control mb-4" required  placeholder="Message*">
@@ -355,31 +367,31 @@
     </form>
     <!-- Default form contact -->
    </div>
-    <div class="map">
+    <div class="map" id="maps" style="height: 370px">
         <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d670.769513544707!2d-80.18964512616262!3d25.76367650216107!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x88d9b6823bcb4677%3A0x32d963083ac273ca!2sLloyd%20Jones%20LLC%20Corporate%20Offices!5e0!3m2!1suk!2snl!4v1682072493351!5m2!1suk!2snl" width="100%" height="370" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
     </div>
 </main>
 <footer>
     <div class="images-web ">
 
-                <a href="#" class="be-ic ">
-                    <img src="images/behance_1294.png" alt="behance">
+                <a href="#" class="be-ic">
+                    <i class="bi bi-behance"></i>
                 </a>
 
-                <a href="#" class="dr-ic ">
-                    <img src="images/dribbble_1295.png" alt="dribble">
+                <a href="#" class="dr-ic">
+                    <i class="bi bi-dribbble"></i>
                 </a>
 
-                <a href="#" class="tw-ic ">
-                   <img src="images/twitter_1297.png" alt="twitter">
+                <a href="#" class="tw-ic">
+                    <i class="bi bi-twitter"></i>
                 </a>
 
-                <a href="#" class="fc-ic ">
-                    <img src="images/facebook_1296.png" alt="facebook">
+                <a href="#" class="fc-ic">
+                    <i class="bi bi-facebook"></i>
                 </a>
 
-                <a href="#" class="li-ic ">
-                    <img src="images/linkedin_1298.png" alt="linkedin"/>
+                <a href="#" class="li-ic">
+                    <i class="bi bi-linkedin"></i>
                 </a>
         <p>copyright © 2014 lucid onepage theme</p>
     </div>
@@ -393,5 +405,15 @@
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js"
         integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
         crossorigin="anonymous"></script>
+<script>
+    const navEl= document.querySelector('.navbar,.header-bg');
+    window.addEventListener('scroll', () => {
+if (window.scrollY >= 56){
+    navEl.classList.add('navbar-scrolled');
+}else if (window.scrollY < 56){
+    navEl.classList.remove('navbar-scrolled');
+}
+    });
+</script>
 </body>
 </html>

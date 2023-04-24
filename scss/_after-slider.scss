@@ -1,0 +1,65 @@
+.after-slider{
+  width: 100%;
+  height: auto;
+  background-color: #15141a;
+  .content{
+    max-width: 1170px;
+    margin: 0 auto;
+    padding: 65px 0 65px 0;
+    .text{
+      display: flex;
+      flex-direction: row;
+      h1{
+        font-size: 36px;
+        font-weight: 600;
+        color: #ffffff;
+      }
+      h5{
+        padding: 0 0 0 5px;
+        font-weight: 100;
+        color: #ffffff;
+        font-size: 34px;
+      }
+    }
+    .button{
+      padding: 0 0 0 40px;
+      @media (max-width: 600px) {
+        padding: 0 0 0 0;
+      }
+      a{
+        width: 160px;
+        height: 50px;
+        font-size: 14px;
+        font-weight: 700;
+        background-color: transparent;
+        color: white;
+      }
+      a:hover{
+        background-color: #008ed6;
+
+      }
+      .btn-primary{
+        margin: 0px 0 0 0;
+        padding: 14px 0 16px 0px;
+        border: 1px solid rgba(255,255,255,0.2);
+        @media (max-width: 325px) {
+          margin: 40px 0 20px 20px;
+        }
+      }
+      .btn-secondary{
+        margin: 0px 0 0 20px;
+        padding: 14px 0 16px 0px;
+        border: 1px solid rgba(255,255,255,0.2);
+        @media (max-width: 1154px) {
+         margin: 0 0 0 0;
+        }
+        @media (max-width: 1024px) {
+          margin: 20px 0 0 0;
+        }
+        @media (max-width: 991px) {
+          margin: 0 0 0 20px;
+        }
+      }
+    }
+  }
+}

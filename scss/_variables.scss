@@ -1,8 +1,32 @@
-$grid-breakpoints: (
-        xs: 0,
-        sm: 576px,
-        md: 768px,
-        lg: 992px,
-        xl: 1200px,
-        xxl: 1400px
-);
+/*HEADER*/
+$color-box:  0 3px 10px rgba(0, 0, 0, 0.15 ) ;
+$header-bg: #14141a;
+$header-text-cl: white;
+$primary-cl: #008ed6;
+$header-text-cl-2: #999999;
+$border-color: 1px solid rgba(255,255,255,0.2);
+/*PRODUCT*/
+$product-bg: white;
+$primary-cl: #008ed6;
+$text-cl-pro: #1a1a1a;
+$text-cl-2: #999999;
+/*DETAILS*/
+$primary-cl: #008ed6;
+$det-bg-det: white;
+$text-cl-det: #1a1a1a;
+$text-cl-det-2: #999999;
+/*TESTIMONIALS*/
+$bg-test-test: #f2f2f2;
+$primary-cl: #008ed6;
+$text-cl-test: #1a1a1a;
+$text-cl-2-test: #999999;
+/*SLIDER*/
+$primary-cl: #008ed6;
+$text-cl-slider:  #ffffff;
+/*PRICE*/
+
+/*BLOCK-FORM*/
+
+/*CONTACT-FORM*/
+
+/*FOOTER*/

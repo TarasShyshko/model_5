@@ -1,10 +1,11 @@
+@import "variables";
 .product {
-  background-color: white;
+  background-color: $product-bg;
 
   &_content {
     max-width: 1170px;
     height: 100%;
-    background-color: white;
+    background-color: $product-bg;
     margin: 0 auto;
     text-align: center;
   }
@@ -21,7 +22,7 @@
       font-size: 14px;
       font-weight: 700;
       text-transform: uppercase;
-      color: #008ed6;
+      color: $primary-cl;
     }
 
     h1 {
@@ -29,7 +30,7 @@
       font-weight: 600;
       text-transform: none;
       letter-spacing: normal;
-      color: #1a1a1a;
+      color: $text-cl;
     }
 
     img {
@@ -54,13 +55,13 @@
       padding: 30px 0 0 0;
       font-size: 24px;
       font-weight: 400;
-      color: #1a1a1a;
+      color: $text-cl;
 
     }
     p{
 
       font-size: 18px;
-      color: #999999;
+      color: $text-cl-2;
     }
   }
   &_block-2{
@@ -73,12 +74,12 @@
       padding: 30px 0 0 0;
       font-size: 24px;
       font-weight: 400;
-      color: #1a1a1a;
+      color: $text-cl;
 
     }
     p{
       font-size: 18px;
-      color: #999999;
+      color: $text-cl-2;
     }
   }
   &_block-3{
@@ -90,12 +91,12 @@
       padding: 30px 0 0 0;
       font-size: 24px;
       font-weight: 400;
-      color: #1a1a1a;
+      color: $text-cl;
 
     }
     p{
       font-size: 18px;
-      color: #999999;
+      color: $text-cl-2;
     }
   }
   &_block-4{
@@ -107,12 +108,12 @@
       padding: 30px 0 0 0;
       font-size: 24px;
       font-weight: 400;
-      color: #1a1a1a;
+      color: $text-cl;
 
     }
     p{
       font-size: 18px;
-      color: #999999;
+      color: $text-cl-2;
     }
   }
 

@@ -1,5 +1,5 @@
 .blocks{
-  background: #f2f2f2;
+  background: $bg-test-test;
   width: 100%;
   height: 100%;
   &_cont{
@@ -17,7 +17,7 @@
 
       font-weight: 700;
       text-transform: uppercase;
-      color: #008ed6;
+      color: $primary-cl;
       @media (max-width: 992px){
         padding: 100px 0 0 0;
       }
@@ -30,7 +30,7 @@
       font-weight: 600;
       text-transform: none;
       letter-spacing: normal;
-      color: #1a1a1a;
+      color: $text-cl-test;
     }
     img {
       margin: 35px 0 30px 0;
@@ -40,7 +40,7 @@
       font-weight: 400;
       text-transform: none;
       letter-spacing: normal;
-      color: #999999;
+      color: $text-cl-2-test;
       margin: 0 0 40px 0;
     }
   }

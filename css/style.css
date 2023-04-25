@@ -554,6 +554,9 @@ main .slide .carousel-inner {
 main .slide .carousel-inner .carousel-item {
   padding: 0 20px 0 20px;
 }
+main .slide .carousel-inner .content-1 {
+  padding: 0 15px 30px 15px;
+}
 main .slide .carousel-inner p {
   font-size: 22px;
   line-height: 32px;
@@ -728,7 +731,7 @@ main .price_block .content button {
   font-size: 14px;
   width: 162px;
   height: 52px;
-  border: 1px solid rgba(255, 255, 255, 0.2);
+  border-color: #a2a2a2;
   font-weight: 700;
   text-transform: uppercase;
   margin: 0 0 30px 0;

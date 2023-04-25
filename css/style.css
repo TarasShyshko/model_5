@@ -261,6 +261,51 @@ main {
   /*BLOCK-FORM*/
   /*CONTACT-FORM*/
   /*FOOTER*/
+  /*HEADER*/
+  /*PRODUCT*/
+  /*DETAILS*/
+  /*TESTIMONIALS*/
+  /*SLIDER*/
+  /*PRICE*/
+  /*BLOCK-FORM*/
+  /*CONTACT-FORM*/
+  /*FOOTER*/
+  /*HEADER*/
+  /*PRODUCT*/
+  /*DETAILS*/
+  /*TESTIMONIALS*/
+  /*SLIDER*/
+  /*PRICE*/
+  /*BLOCK-FORM*/
+  /*CONTACT-FORM*/
+  /*FOOTER*/
+  /*HEADER*/
+  /*PRODUCT*/
+  /*DETAILS*/
+  /*TESTIMONIALS*/
+  /*SLIDER*/
+  /*PRICE*/
+  /*BLOCK-FORM*/
+  /*CONTACT-FORM*/
+  /*FOOTER*/
+  /*HEADER*/
+  /*PRODUCT*/
+  /*DETAILS*/
+  /*TESTIMONIALS*/
+  /*SLIDER*/
+  /*PRICE*/
+  /*BLOCK-FORM*/
+  /*CONTACT-FORM*/
+  /*FOOTER*/
+  /*HEADER*/
+  /*PRODUCT*/
+  /*DETAILS*/
+  /*TESTIMONIALS*/
+  /*SLIDER*/
+  /*PRICE*/
+  /*BLOCK-FORM*/
+  /*CONTACT-FORM*/
+  /*FOOTER*/
 }
 main .product {
   background-color: white;
@@ -502,7 +547,6 @@ main .slide img {
   margin: 30px 0 90px 0;
 }
 main .slide .carousel-inner {
-  margin: 0 20px 0 20px;
   max-width: 1170px;
   margin: 0 auto;
   text-align: left;
@@ -684,7 +728,7 @@ main .price_block .content button {
   font-size: 14px;
   width: 162px;
   height: 52px;
-  border: 1px solid #e0e0e0;
+  border: 1px solid rgba(255, 255, 255, 0.2);
   font-weight: 700;
   text-transform: uppercase;
   margin: 0 0 30px 0;
@@ -905,6 +949,15 @@ main .contact-form form button {
   }
 }
 
+/*HEADER*/
+/*PRODUCT*/
+/*DETAILS*/
+/*TESTIMONIALS*/
+/*SLIDER*/
+/*PRICE*/
+/*BLOCK-FORM*/
+/*CONTACT-FORM*/
+/*FOOTER*/
 footer {
   background-color: #15141a;
   height: auto;
